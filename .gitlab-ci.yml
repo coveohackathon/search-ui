@@ -5,7 +5,7 @@ before_script:
 
 main:
   script:
-    - npm run injectTag
+    - npm install gulp
     - npm run build
     - npm run minimize
     - npm run test
